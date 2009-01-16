@@ -3,7 +3,7 @@ Version:        1.0.0
 Release:        %mkrel 1
 Summary:        OCaml extension for pattern matching with regexps
 
-Group:          Development/Libraries
+Group:          Development/Other
 License:        BSD
 URL:            http://martin.jambon.free.fr/micmatch.html
 Source0:        http://martin.jambon.free.fr/mikmatch-%{version}.tar.bz2
@@ -38,7 +38,7 @@ to Camlp4.
 
 %package        devel
 Summary:        Development files for %{name}
-Group:          Development/Libraries
+Group:          Development/Other
 Requires:       %{name} = %{version}-%{release}
 
 
