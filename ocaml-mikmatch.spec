@@ -16,6 +16,7 @@ BuildRequires:  ocaml-findlib
 BuildRequires:  camlp4
 BuildRequires:  ocaml-pcre-devel
 BuildRequires:  pcre-devel
+BuildRequires:  libncurses-devel
 
 #define _use_internal_dependency_generator 0
 #define __find_requires /usr/lib/rpm/ocaml-find-requires.sh
