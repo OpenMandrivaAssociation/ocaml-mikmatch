@@ -1,6 +1,6 @@
 Name:           ocaml-mikmatch
 Version:        1.0.0
-Release:        %mkrel 1
+Release:        %mkrel 2
 Summary:        OCaml extension for pattern matching with regexps
 
 Group:          Development/Other
