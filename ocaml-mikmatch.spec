@@ -53,6 +53,7 @@ developing applications that use %{name}.
 %build
 make all str pcre
 make opt
+(cd doc && make mikmatch-ocamldoc/index.html)
 
 
 %install
@@ -85,6 +86,7 @@ rm -rf %{buildroot}
 %files devel
 %defattr(-,root,root,-)
 %doc LICENSE README
+%doc doc/mikmatch-ocamldoc/
 %{_libdir}/ocaml/mikmatch_str/*.a
 %{_libdir}/ocaml/mikmatch_str/*.cmxa
 %{_libdir}/ocaml/mikmatch_str/*.cmx
