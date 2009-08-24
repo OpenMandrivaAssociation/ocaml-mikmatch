@@ -1,6 +1,6 @@
 Name:           ocaml-mikmatch
-Version:        1.0.0
-Release:        %mkrel 3
+Version:        1.0.2
+Release:        %mkrel 1
 Summary:        OCaml extension for pattern matching with regexps
 
 Group:          Development/Other
@@ -8,8 +8,6 @@ License:        BSD
 URL:            http://martin.jambon.free.fr/micmatch.html
 Source0:        http://martin.jambon.free.fr/mikmatch-%{version}.tar.bz2
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}
-
-Patch0:         ocaml-mikmatch-1.0.0-dynlink.patch
 
 BuildRequires:  ocaml >= 3.11.0
 BuildRequires:  ocaml-findlib
@@ -50,7 +48,6 @@ developing applications that use %{name}.
 
 %prep
 %setup -q -n mikmatch-%{version}
-%patch0 -p1
 
 
 %build
