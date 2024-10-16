@@ -5,7 +5,7 @@ Summary:        OCaml extension for pattern matching with regexps
 
 Group:          Development/Other
 License:        BSD
-URL:            http://martin.jambon.free.fr/micmatch.html
+URL:            https://martin.jambon.free.fr/micmatch.html
 Source0:        http://martin.jambon.free.fr/mikmatch-%{version}.tar.bz2
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}
 
