@@ -9,6 +9,7 @@ URL:            https://martin.jambon.free.fr/micmatch.html
 Source0:        http://martin.jambon.free.fr/mikmatch-%{version}.tar.bz2
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}
 
+BuildRequires:	make
 BuildRequires:  ocaml >= 3.11.0
 BuildRequires:  ocaml-findlib
 BuildRequires:  camlp4
